@@ -1,0 +1,3 @@
+{% for tag in page.tags %}
+  <a href="/perspectives/tags/#{{ tag | slugify }}">{{ tag }}</a>
+{% endfor %}

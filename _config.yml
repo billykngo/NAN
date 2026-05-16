@@ -157,6 +157,9 @@ collections:
   cyber:
     output: true
     permalink: /:collection/:title/
+  perspectives:
+    output: true
+    permalink: /:perspectives/:title/
 
 # These settings control how pages and collections are included in the site
 defaults:
@@ -199,6 +202,15 @@ defaults:
   - scope:
       path: ""
       type: cyber
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comments: true
+  #perspectives
+  - scope:
+      path: ""
+      type: perspectives
     values:
       layout: single
       author_profile: true
