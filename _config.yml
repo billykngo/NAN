@@ -8,12 +8,12 @@
 
 # Basic Site Settings
 locale: "en-US"
-title: "Growing Pains"
+title: "Ngowing At Ngowledge"
 title_separator: "-"
-name: &name "Growing Pains"
+name: &name "Ngawing At Ngowledge"
 description: &description "personal description"
 url: "https://billykngo.github.io" # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl: "/DailyGrowth" # the subpath of your site, e.g. "/blog"
+baseurl: "/nan" # the subpath of your site, e.g. "/blog"
 repository: "billykngo"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -31,7 +31,7 @@ author:
   github: "billykngo"
 
   # Social media
-  facebook: "billy.ngo.37"
+  #facebook: "billy.ngo.37"
   instagram: iknowingo
   linkedin: bkngo
 
